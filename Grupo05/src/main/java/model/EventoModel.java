@@ -24,12 +24,13 @@ public class EventoModel {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="evento_id")
 	private int idEvento;
 	
-	@Column
+	@Column(name="evento_nome")
 	private String nomeEvento;
 	
-	@Column
+	@Column(name="evento_inscricoes")
 	private int inscricoesEvento;
 	
 

@@ -24,12 +24,13 @@ public class PessoaEventoModel {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="pessoa_evento_id")
 	private int idPessoaEvento;
 	
-	@Column
+	@Column(name="pessoa_id")
 	private int idPessoa;
 	
-	@Column
+	@Column(name="evento_id")
 	private int idEvento;
 
 	public int getIdPessoaEvento() {

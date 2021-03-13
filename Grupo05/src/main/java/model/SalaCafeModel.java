@@ -24,12 +24,13 @@ public class SalaCafeModel {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="sala_cafe_id")
 	private int idSalaCafe;
 	
-	@Column
+	@Column(name="sala_cafe_nome")
 	private String nomeSalaCafe;
 	
-	@Column
+	@Column(name="sala_cafe_lotacao")
 	private int lotacaoSalaCafe;
 
 	public int getIdSalaCafe() {

@@ -25,24 +25,25 @@ public class EtapaModel {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="etapa_id")
 	private int idEtapa;
 	
-	@Column
+	@Column(name="etapa_numero")
 	private int numeroEtapa;
 	
-	@Column
+	@Column(name="etapa_inicio")
 	private String inicioEtapa;
 	
-	@Column
+	@Column(name="etapa_final")
 	private String finalEtapa;
 	
-	@Column
+	@Column(name="etapa_cafe_inicio")
 	private String inicioCafeEtapa;
 	
-	@Column
+	@Column(name="etapa_cafe_final")
 	private String finalCafeEtapa;
 	
-	@Column
+	@Column(name="evento_id")
 	private int idEvento;
 
 	public int getIdEtapa() {

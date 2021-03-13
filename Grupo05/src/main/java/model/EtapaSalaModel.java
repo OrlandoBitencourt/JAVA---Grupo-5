@@ -24,12 +24,13 @@ public class EtapaSalaModel {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="etapa_sala_id")
 	private int idEtapaSala;
 	
-	@Column
+	@Column(name="etapa_id")
 	private int idEtapa;
 	
-	@Column
+	@Column(name="sala_id")
 	private int idSala;
 
 	public int getIdEtapaSala() {

@@ -24,12 +24,13 @@ public class EtapaCafeModel {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="etapa_cafe_id")
 	private int idEtapaCafe;
 	
-	@Column
+	@Column(name="etapa_id")
 	private int idEtapa;
 	
-	@Column
+	@Column(name="cafe_id")
 	private int idCafe;
 
 	public int getIdEtapaCafe() {
