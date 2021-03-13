@@ -2,8 +2,18 @@
 <persistence version="1.0"
 	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
-    <persistence-unit name="proway" transaction-type="RESOURCE_LOCAL">  
+    <persistence-unit name="Grupo05" transaction-type="RESOURCE_LOCAL">  
     	<provider>org.hibernate.ejb.HibernatePersistence</provider>  
+    	<class>model</class>
+    	<class>pessoa</class>
+    	<class>evento</class>
+    	<class>sala</class>
+    	<class>sala_cafe</class>
+    	<class>etapa</class>
+    	<class>pessoa_evento</class>
+    	<class>evento_etapa</class>
+    	<class>etapa_sala</class>
+    	<class>etapa_cafe</class>
         <properties>
        		<property name="hibernate.archive.autodetection" value="class" />
        		 

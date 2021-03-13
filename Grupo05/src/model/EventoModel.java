@@ -4,13 +4,13 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
 * Classe Evento.
 * 
-* Atributos: idEvento, nomeEvento, inscricoesEvento, 
-* inicioEvento, finalEvento e etapaEvento.
+* Atributos: idEvento, nomeEvento, inscricoesEvento
 * 
 *
 * @author  Gabriela, Orlando, Rudolfo
@@ -20,9 +20,9 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="evento")
-public class Evento {
+public class EventoModel {
 	
-	@Column
+	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idEvento;
 	
@@ -32,14 +32,6 @@ public class Evento {
 	@Column
 	private int inscricoesEvento;
 	
-	@Column
-	private String inicioEvento;
-	
-	@Column
-	private String finalEvento;
-	
-	@Column
-	private int etapaEvento;
 
 	public int getIdEvento() {
 		return idEvento;
@@ -65,29 +57,6 @@ public class Evento {
 		this.inscricoesEvento = inscricoesEvento;
 	}
 
-	public String getInicioEvento() {
-		return inicioEvento;
-	}
-
-	public void setInicioEvento(String inicioEvento) {
-		this.inicioEvento = inicioEvento;
-	}
-
-	public String getFinalEvento() {
-		return finalEvento;
-	}
-
-	public void setFinalEvento(String finalEvento) {
-		this.finalEvento = finalEvento;
-	}
-
-	public int getEtapaEvento() {
-		return etapaEvento;
-	}
-
-	public void setEtapaEvento(int etapaEvento) {
-		this.etapaEvento = etapaEvento;
-	}
 	
 	
 }

@@ -1,9 +1,5 @@
 package model;
 
-
-import java.sql.PreparedStatement;
-
-import bd.Conexao;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -25,9 +21,9 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="pessoa")
-public class Pessoa {
+public class PessoaModel {
 	
-	@Column
+	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idPessoa;
 	

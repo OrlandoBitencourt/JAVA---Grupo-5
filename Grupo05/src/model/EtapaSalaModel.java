@@ -4,12 +4,13 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
 * Classe EventoSala.
 * 
-* Atributos: idEventoSala, idEvento e idSala.
+* Atributos: idEtapaSala, idEtapa e idSala.
 * 
 *
 * @author  Gabriela, Orlando, Rudolfo
@@ -18,33 +19,33 @@ import javax.persistence.Table;
 */
 
 @Entity
-@Table(name="evento_sala")
-public class EventoSala {
+@Table(name="etapa_sala")
+public class EtapaSalaModel {
 	
-	@Column
+	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int idEventoSala;
+	private int idEtapaSala;
 	
 	@Column
-	private int idEvento;
+	private int idEtapa;
 	
 	@Column
 	private int idSala;
 
-	public int getIdEventoSala() {
-		return idEventoSala;
+	public int getIdEtapaSala() {
+		return idEtapaSala;
 	}
 
-	public void setIdEventoSala(int idEventoSala) {
-		this.idEventoSala = idEventoSala;
+	public void setIdEtapaSala(int idEtapaSala) {
+		this.idEtapaSala = idEtapaSala;
 	}
 
-	public int getIdEvento() {
-		return idEvento;
+	public int getIdEtapa() {
+		return idEtapa;
 	}
 
-	public void setIdEvento(int idEvento) {
-		this.idEvento = idEvento;
+	public void setIdEtapa(int idEtapa) {
+		this.idEtapa = idEtapa;
 	}
 
 	public int getIdSala() {

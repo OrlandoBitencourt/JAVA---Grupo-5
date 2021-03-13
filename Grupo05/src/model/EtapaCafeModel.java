@@ -4,12 +4,13 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
 * Classe EventoCafe.
 * 
-* Atributos: idEventoCafe, idEvento e idCafe.
+* Atributos: idEtapaCafe, idEtapa e idCafe.
 * 
 *
 * @author  Gabriela, Orlando, Rudolfo
@@ -18,33 +19,33 @@ import javax.persistence.Table;
 */
 
 @Entity
-@Table(name="evento_cafe")
-public class EventoCafe {
+@Table(name="etapa_cafe")
+public class EtapaCafeModel {
 
-	@Column
+	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int idEventoCafe;
+	private int idEtapaCafe;
 	
 	@Column
-	private int idEvento;
+	private int idEtapa;
 	
 	@Column
 	private int idCafe;
 
-	public int getIdEventoCafe() {
-		return idEventoCafe;
+	public int getIdEtapaCafe() {
+		return idEtapaCafe;
 	}
 
-	public void setIdEventoCafe(int idEventoCafe) {
-		this.idEventoCafe = idEventoCafe;
+	public void setIdEtapaCafe(int idEtapaCafe) {
+		this.idEtapaCafe = idEtapaCafe;
 	}
 
-	public int getIdEvento() {
-		return idEvento;
+	public int getIdEtapa() {
+		return idEtapa;
 	}
 
-	public void setIdEvento(int idEvento) {
-		this.idEvento = idEvento;
+	public void setIdEtapa(int idEtapa) {
+		this.idEtapa = idEtapa;
 	}
 
 	public int getIdCafe() {
