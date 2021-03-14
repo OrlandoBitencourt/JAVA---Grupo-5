@@ -11,6 +11,12 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
+/**
+ * 
+ * @author Orlando, Gabriela, Rudolfo
+ *
+ */
+
 @Data
 @Entity
 @Table(name = "etapa_sala")

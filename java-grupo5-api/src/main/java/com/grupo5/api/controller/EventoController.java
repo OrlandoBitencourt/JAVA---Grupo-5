@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.grupo5.api.model.EventoModel;
 import com.grupo5.api.repository.EventoRepository;
 
+/**
+ * 
+ * @author Orlando, Gabriela, Rudolfo
+ *
+ */
+
 @RestController
 @RequestMapping("/evento")
 public class EventoController {

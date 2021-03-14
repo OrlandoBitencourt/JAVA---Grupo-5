@@ -5,6 +5,11 @@ import org.springframework.stereotype.Repository;
 
 import com.grupo5.api.model.SalaModel;
 
+/**
+ * 
+ * @author Orlando, Gabriela, Rudolfo
+ *
+ */
 
 @Repository
 public interface SalaRepository extends JpaRepository<SalaModel, Long>{

@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.grupo5.api.model.PessoaModel;
 import com.grupo5.api.repository.PessoaRepository;
 
+/**
+ * 
+ * @author Orlando, Gabriela, Rudolfo
+ *
+ */
+
 @RestController
 @RequestMapping("/pessoas")
 public class PessoaController {

@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.grupo5.api.model.SalaCafeModel;
 import com.grupo5.api.repository.SalaCafeRepository;
 
+/**
+ * 
+ * @author Orlando, Gabriela, Rudolfo
+ *
+ */
+
 @RestController
 @RequestMapping("/sala-cafe")
 public class SalaCafeController {
