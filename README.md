@@ -7,28 +7,28 @@ JAVA - Grupo 5
 
 `localhost:8080/pessoas`
 
-    `GET/SET` responsavel por cadstrar e consultar participantes;
+    `GET/POST` responsavel por cadstrar e consultar participantes;
 
 `localhost:8080/sala`
 
-    `GET/SET` responsavel por cadstrar e consultar salas de evento;
+    `GET/POST` responsavel por cadstrar e consultar salas de evento;
 
 `localhost:8080/sala-cafe`
 
-    `GET/SET` responsavel por cadstrar e consultar salas para café;
+    `GET/POST` responsavel por cadstrar e consultar salas para café;
 
 `localhost:8080/evento`
 
-    `GET/SET` responsavel por cadstrar e consultar eventos;
+    `GET/POST` responsavel por cadstrar e consultar eventos;
 
 `localhost:8080/etapa`
 
-    `GET/SET` responsavel por cadstrar e consultar etapas de eventos;
+    `GET/POST` responsavel por cadstrar e consultar etapas de eventos;
 
 `localhost:8080/etapa-sala`
 
-    `GET/SET` responsavel por cadstrar e consultar salas em etapas de evento;
+    `GET/POST` responsavel por cadstrar e consultar salas em etapas de evento;
 
 `localhost:8080/etapa-cafe`
 
-    `GET/SET` responsavel por cadstrar e consultar salas de café em etapas de evento;
+    `GET/POST` responsavel por cadstrar e consultar salas de café em etapas de evento;
