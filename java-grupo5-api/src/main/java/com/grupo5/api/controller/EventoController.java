@@ -15,6 +15,13 @@ import com.grupo5.api.model.EventoModel;
 import com.grupo5.api.repository.EventoRepository;
 
 /**
+ * CONTROLLER: EventoController
+ * 
+ * Endpoint: /evento
+ * 
+ * Metodos: 
+ * 	GET: listar(), 
+ * 	POST: adicionar(MODEL)
  * 
  * @author Orlando, Gabriela, Rudolfo
  *

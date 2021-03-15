@@ -15,6 +15,13 @@ import com.grupo5.api.model.SalaCafeModel;
 import com.grupo5.api.repository.SalaCafeRepository;
 
 /**
+ * CONTROLLER: SalaCafeController
+ * 
+ * Endpoint: /sala-cafe
+ * 
+ * Metodos: 
+ * 	GET: listar(), 
+ * 	POST: adicionar(MODEL)
  * 
  * @author Orlando, Gabriela, Rudolfo
  *

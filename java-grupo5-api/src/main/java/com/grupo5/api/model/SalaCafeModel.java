@@ -10,6 +10,11 @@ import javax.persistence.Table;
 import lombok.Data;
 
 /**
+ * MODEL: SalaCafeModel
+ * 
+ * Atributos: idSalaCafe, nomeSalaCafe, lotacaoSalaCafe
+ * 
+ * Getter e setter adicionado automaticamente pelo lombok (@Data)
  * 
  * @author Orlando, Gabriela, Rudolfo
  *

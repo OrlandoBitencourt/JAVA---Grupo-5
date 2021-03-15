@@ -14,6 +14,19 @@ import org.springframework.web.bind.annotation.RestController;
 import com.grupo5.api.model.SalaModel;
 import com.grupo5.api.repository.SalaRepository;
 
+/**
+ * CONTROLLER: SalaController
+ * 
+ * Endpoint: /sala
+ * 
+ * Metodos: 
+ * 	GET: listar(), 
+ * 	POST: adicionar(MODEL)
+ * 
+ * @author Orlando, Gabriela, Rudolfo
+ *
+ */
+
 @RestController
 @RequestMapping("/sala")
 public class SalaController {

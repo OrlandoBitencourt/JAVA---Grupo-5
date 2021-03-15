@@ -1,6 +1,5 @@
 package com.grupo5.api.controller;
 
-import java.io.Serializable;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +15,13 @@ import com.grupo5.api.model.PessoaEventoModel;
 import com.grupo5.api.repository.PessoaEventoRepository;
 
 /**
+ * CONTROLLER: PessoaEventoController
+ * 
+ * Endpoint: /pessoa-evento
+ * 
+ * Metodos: 
+ * 	GET: listar(), 
+ * 	POST: adicionar(MODEL)
  * 
  * @author Orlando, Gabriela, Rudolfo
  *

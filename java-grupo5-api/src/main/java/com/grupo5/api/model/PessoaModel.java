@@ -15,6 +15,13 @@ import javax.persistence.Table;
 import lombok.Data;
 
 /**
+ * MODEL: PessoaModel
+ * 
+ * Atributos: idPessoa, nomePessoa, sobrenomePessoa, evento
+ * 
+ * evento: FK ligação um para muitos com EventoModel
+ * 
+ * Getter e setter adicionado automaticamente pelo lombok (@Data)
  * 
  * @author Orlando, Gabriela, Rudolfo
  *

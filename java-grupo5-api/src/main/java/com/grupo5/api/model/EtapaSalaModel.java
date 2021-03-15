@@ -12,7 +12,16 @@ import javax.persistence.Table;
 import lombok.Data;
 
 /**
+ * MODEL: EtapaSalaModel
  * 
+ * Atributos: idEtapaSala, etapaModelEtapa_id, salaModelSala_id
+ * 
+ * etapaModelEtapa_id: Fk ligação muitos para um com EtapaModel
+ * 
+ * salaModelSala_id: Fk ligação muitos para um com SalaModel
+ * 
+ * Getter e setter adicionado automaticamente pelo lombok (@Data)
+ *  
  * @author Orlando, Gabriela, Rudolfo
  *
  */
@@ -26,11 +35,11 @@ public class EtapaSalaModel {
 	@Column(name="etapa_sala_id")
 	private int idEtapaSala;
 	
-	@JoinColumn(name = "idEtapa", referencedColumnName = "etapa_id")
 	@ManyToOne
+	@JoinColumn(name = "idEtapa", referencedColumnName = "etapa_id")
 	private EtapaModel etapaModelEtapa_id;
 	
-	@JoinColumn(name = "idSala", referencedColumnName = "sala_id")
 	@ManyToOne
+	@JoinColumn(name = "idSala", referencedColumnName = "sala_id")
 	private SalaModel salaModelSala_id;
 }

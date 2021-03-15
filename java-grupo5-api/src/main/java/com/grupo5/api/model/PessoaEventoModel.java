@@ -16,6 +16,15 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
 /**
+ * MODEL: PessoaEventoModel
+ * 
+ * Atributos: idPessoaEvento, pessoa, evento
+ * 
+ * pessoa: Fk com ligação muitos para um com PessoaModel
+ * 
+ * evento: Fk com ligação muitos para um com EventoModel
+ * 
+ * Getter e setter adicionado automaticamente pelo lombok (@Data)
  * 
  * @author Orlando, Gabriela, Rudolfo
  *

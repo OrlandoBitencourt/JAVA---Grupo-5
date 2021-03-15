@@ -15,6 +15,13 @@ import com.grupo5.api.model.PessoaModel;
 import com.grupo5.api.repository.PessoaRepository;
 
 /**
+ * CONTROLLER: PessoaController
+ * 
+ * Endpoint: /pessoas
+ * 
+ * Metodos: 
+ * 	GET: listar(), 
+ * 	POST: adicionar(MODEL)
  * 
  * @author Orlando, Gabriela, Rudolfo
  *

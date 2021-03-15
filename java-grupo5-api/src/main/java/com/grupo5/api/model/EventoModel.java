@@ -1,8 +1,5 @@
 package com.grupo5.api.model;
 
-
-import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,6 +12,13 @@ import javax.persistence.Table;
 import lombok.Data;
 
 /**
+ * MODEL: EventoModel
+ * 
+ * Atributos: idEvento, nomeEvento, inscricoesEvento, pessoa
+ * 
+ * pessoa: Fk ligação muitos para um com PessoaModel
+ * 
+ * Getter e setter adicionado automaticamente pelo lombok (@Data)
  * 
  * @author Orlando, Gabriela, Rudolfo
  *
@@ -35,7 +39,6 @@ public class EventoModel {
 	
 	@Column(name="evento_inscricoes")
 	private int inscricoesEvento;
-	
 	
 	@ManyToOne
 	@JoinColumn(name = "pessoa_id")
