@@ -11,6 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.Data;
 
@@ -43,7 +44,7 @@ public class PessoaModel{
 	@Column(name="pessoa_sobrenome")
 	private String sobrenomePessoa;
 	
-	
+	@JsonIgnore
 	@OneToMany(mappedBy = "pessoa")
 	private List<EventoModel> evento;
 	

@@ -41,12 +41,10 @@ public class PessoaEventoModel {
 	@Column(name="pessoa_evento_id")
 	private Integer idPessoaEvento;
 	
-	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "pessoa_id")
 	private PessoaModel pessoa;
 
-	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "evento_id")
 	private EventoModel evento;

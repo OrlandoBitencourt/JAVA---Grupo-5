@@ -9,6 +9,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.Data;
 
 /**
@@ -40,6 +42,7 @@ public class EventoModel {
 	@Column(name="evento_inscricoes")
 	private int inscricoesEvento;
 	
+	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "pessoa_id")
 	private PessoaModel pessoa;
