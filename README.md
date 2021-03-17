@@ -24,11 +24,3 @@ JAVA - Grupo 5
 `localhost:8080/etapa`
 
     `GET/POST` responsavel por cadstrar e consultar etapas de eventos;
-
-`localhost:8080/etapa-sala`
-
-    `GET/POST` responsavel por cadstrar e consultar salas em etapas de evento;
-
-`localhost:8080/etapa-cafe`
-
-    `GET/POST` responsavel por cadstrar e consultar salas de café em etapas de evento;
