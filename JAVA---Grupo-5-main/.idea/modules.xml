@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA---Grupo-5-main.iml" filepath="$PROJECT_DIR$/.idea/JAVA---Grupo-5-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-grupo5-api/grupo5-api.iml" filepath="$PROJECT_DIR$/java-grupo5-api/grupo5-api.iml" />
+    </modules>
+  </component>
+</project>
